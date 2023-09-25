@@ -1,0 +1,6 @@
+[submodule "cmdline"]
+	path = cmdline
+	url = https://github.com/tanakh/cmdline.git
+[submodule "hash-library"]
+	path = hash-library
+	url = https://github.com/stbrumme/hash-library
