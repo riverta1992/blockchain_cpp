@@ -6,9 +6,13 @@
 #include <iostream>
 #include "blockchain.h"
 #include "proofofwork.h"
+#include "cli.h"
 
 int main(){
   Blockchain bc;
+  CLI cli();
+  cli.run();
+  /*
   bc.AddBlock("Send 1 BTC to Ivan");
   bc.AddBlock("Send 2 more BTC to Ivan");
   
@@ -20,6 +24,6 @@ int main(){
     ProofOfWork pow(block);
     std::cout << pow.Validate() << std::endl << std::endl;
   }
-
+  */
   return 0;
 }
