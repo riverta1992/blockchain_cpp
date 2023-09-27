@@ -3,7 +3,7 @@
 
 namespace mp = boost::multiprecision;
 constexpr int64_t maxNonce = std::numeric_limits<int64_t>::max();
-const int64_t targetBits = 24;
+const int64_t targetBits = 8;//24;
 
 std::string IntToHex(int64_t i);
 

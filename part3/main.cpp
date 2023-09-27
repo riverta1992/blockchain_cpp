@@ -4,14 +4,19 @@
  *
  */
 #include <iostream>
+
+#ifndef Blockchain_H_
 #include "blockchain.h"
+#define Blockchain_H_
+#endif
+
 #include "proofofwork.h"
 #include "cli.h"
 
-int main(){
+int main(int argc, char *argv[]){
   Blockchain bc;
-  CLI cli();
-  cli.run();
+  CLI cli(&bc);
+  cli.run(argc, argv);
   /*
   bc.AddBlock("Send 1 BTC to Ivan");
   bc.AddBlock("Send 2 more BTC to Ivan");
