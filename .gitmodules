@@ -4,3 +4,6 @@
 [submodule "hash-library"]
 	path = hash-library
 	url = https://github.com/stbrumme/hash-library
+[submodule "cereal"]
+	path = cereal
+	url = https://github.com/USCiLab/cereal.git
